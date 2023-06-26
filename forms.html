@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0px;
+        display: flex;
+      }
+      form {
+        margin: auto;
+      }
+      fieldset {
+        width: 200px;
+        text-align: center;
+        margin: auto;
+      }
+      textarea {
+        height: 50px;
+      }
+      input,
+      textarea,
+      select {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="table.html">
+      <fieldset
+        style="background-color: aquamarine; border: 2px solid darkblue"
+      >
+        <legend>Sign in</legend>
+
+        <!-- Username
+        <input
+          type="text"
+          placeholder="Username"
+          name="username"
+          id="email"
+        /><br /><br />
+
+        Password
+        <input
+          type="password"
+          placeholder="Password"
+          name="password"
+          id="password"
+        /><br /><br /> -->
+
+        <input type="text" placeholder="Name" />
+        <textarea placeholder="Address" cols="30" rows="30"></textarea> <br />
+        <input type="radio" name="Gender" value="Male" /> <label> Male</label>
+        <input type="radio" name="Gender" value="Female" />
+        <label> Female</label><br />
+
+        <select name="Qualification" id="">
+          <option value="BE">BE</option>
+          <option value="ME">ME</option>
+          <option value="Grad">Grad</option></select
+        ><br />
+        <input type="submit" value="Submit" /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>

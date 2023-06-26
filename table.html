@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <style>
+      .tb {
+        border-collapse: separate;
+        border-spacing: 5px;
+        width: 600px;
+      }
+      .tb th,
+      .tb td {
+        padding: 5px;
+        border: dotted 1px crimson;
+        text-align: center;
+      }
+      .tb th {
+        background-color: antiquewhite;
+      }
+    </style>
+
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+      <tr>
+        <td>R1C1</td>
+        <td>R1C2</td>
+        <td>R1C3</td>
+      </tr>
+      <tr>
+        <td>R2C1</td>
+        <td>R2C2</td>
+        <td>R2C3</td>
+      </tr>
+      <tr>
+        <td>R3C1</td>
+        <td>R3C2</td>
+        <td>R3C3</td>
+      </tr>
+    </table>
+    <table class="tb">
+      <thead>
+        Record
+      </thead>
+      <tr>
+        <th>Id</th>
+        <th colspan="2">Name & Designation</th>
+        <!-- <th>Designation</th> -->
+        <th>Salary</th>
+      </tr>
+
+      <tr>
+        <td>101</td>
+        <td>Sumeet Mahajan</td>
+        <td>Sales Associate</td>
+        <td>35000</td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Sumeet</td>
+        <td>Sales</td>
+        <td>40000</td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Mahajan</td>
+        <td>Associate</td>
+        <td>30000</td>
+      </tr>
+    </table>
+  </body>
+</html>
